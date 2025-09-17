@@ -1,0 +1,23 @@
+body {
+  background: url("./assets/tech-bg.jpg") no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.customized_form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 32px 16px;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+.option-custom {
+  margin-right: 8px;
+}
